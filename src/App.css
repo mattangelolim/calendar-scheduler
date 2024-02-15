@@ -1,21 +1,62 @@
 .App {
   text-align: center;
-  display: flex;
+  display: block;
   justify-content: center;
   gap: 10px;
   align-items: center;
   height: 100vh;
+  border: 1px solid black;
+}
+.App h1{
+  height: 2%;
 }
 
 .calendar{
-  border: 2px solid black;
-  height: 600px;
-  width: 600px;
+  height: 70%;
+  
 }
 
 .form{
-  width: 300px;
+  height: 20%;
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  gap: 5rem;
+  padding: 8px;
+}
+
+.first-form{
+  display: flex;
+  width: 15%;
   flex-direction: column;
+  gap: 5px;
+
+}
+.second-form{
+  display: flex;
+  width: 35%;
+  font-size: 18px;
+  flex-direction: column;
+}
+.second-form-content select{
+  margin-right: 10%;
+}
+.second-form-content input{
+  margin-right: 2%;
+}
+.second-form-content{
+  display: flex; 
+  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+}
+.third-form{
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+}
+
+.third-form-content{
+  display: flex; 
+  gap: 2px;
+  align-items: center;
 }
